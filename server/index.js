@@ -21,7 +21,7 @@ app.use(express.static(__dirname + '/../client/dist'));
 
 app.get('/genres', function(req, res) {
   // make an axios request to get the official list of genres from themoviedb
-  
+
   // use this endpoint. you will need your API key from signup: https://api.themoviedb.org/3/genre/movie/list
 
   // send back
@@ -53,10 +53,10 @@ app.post('/delete', function(req, res) {
 
 //Routes
 
-const movieRoutes = require('./routes/movieRoutes.js');
+// const movieRoutes = require('./routes/movieRoutes.js');
 
-//Use routes
-app.use('/movies', movieRoutes);
+// //Use routes
+// app.use('/movies', movieRoutes);
 
 
 app.listen(3000, function() {
