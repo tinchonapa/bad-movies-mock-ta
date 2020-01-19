@@ -1,0 +1,8 @@
+Notes
+1) solve how to pass data through props
+2) how to create components with a map
+3) how to generate methods and setState
+4) make it dynamic with http request to server
+5) server use of controllers and models
+6) how to connect db to pass data to client side
+7) APIS post and get request
